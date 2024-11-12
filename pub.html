@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="free.css">
+    <title>E-Sports Registration</title>
+</head>
+<body>
+    <header>
+        <img src="assets/p1.png" alt="BGSKH Education Trust logo">
+        <div class="text">
+            <p>||Jai Sri Gurudev||</p>
+            <h4>BGSKH Education Trust (R.) - A unit of Sri Adichunchanagiri Shikshana Trust(R.)</h4>
+            <span class="heading">BGS College of Engineering and Technology (BGSCET)</span><br>
+            <p>(Approved by AICTE, New Delhi and Affiliated to VTU, Belagavi)</p>
+            <p>Adjacent to Mahalakshmi Metro Station, Mahalakshmipuram, West of Chord Road, Bengaluru - 560 086, Karnataka</p>
+        </div>
+        <img src="assets/p2.png" alt="Another logo" class="p2">
+    </header>
+    
+    <main>
+        <section class="head">
+            <center>
+                <h2>BGMI</h2>
+            </center>
+        </section>
+        
+        <img src="assets/pubg.webp" height="200px" width="100%">
+
+        <section class="rules">
+            <h2>Rule and regulations</h2>
+            <h3>Player Guidelines:</h3><br>
+            <ul>
+                <li>It is a 4 player team tournament. A 4 man-starter roster and up to 1 substitute.</li>
+                <li>Emulators are not allowed in any gamemode organized. The player will be disqualified if found using any kind of emulator.</li>
+                <li>Any game modifying tools except 'GFX tool' is not allowed.</li>
+                <li>Players can play on android/ios tablets/phones only.</li>
+                <li>Only in-game voice chat should be used after the game is started till its completion.</li>
+                <li>Any use of unfair means such as aimbot, trigger bot, ESP will be disqualified.</li>
+                <li>Should a team/player fail to join the room in time, their squad/they will be given 0 points for it.</li>
+                <li>Waiting time is at most 10 minutes between games.</li>
+                <li>Exiting a game without good reason will disqualify the team.</li>
+                <li>The exploitation of bugs that hinders fair play will result in disqualification.</li>
+                <li>For the tiebreaker of the points, total team/solo kills will be considered for breaking the tie.</li>
+                <li>For the further tiebreaker, number of chicken dinners will be considered.</li>
+                <li>Organizers would not be held responsible for connectivity issues on the participant's side.</li>
+                <li>The entry fee would not be refunded under any circumstances.</li>
+                <li>Organizers reserve the right to accept or reject any entry without stating a reason thereof.</li>
+                <li>Participants are requested to remain ready at least 15 minutes prior to the start of any match. Late entries would not be allowed.</li>
+            </ul><br>
+            <h3>Tournament Guidelines:</h3><br>
+            <ul>
+                <li>Players will participate as a 4 man-squad.</li>
+                <li>Up to 64 players will be playing in a lobby.</li>
+                <li>Maps selected will be notified to the participants before the match.</li>
+                <li>The group stage is a 3-map series.</li>
+            </ul><br>
+            <h3><b>Point system:</b></h3><br>
+            <li>Kill - 1 point.</li>
+            <li>1st - 15 points.</li>
+            <li>2nd - 12 points.</li>
+            <li>3rd - 10 points.</li>
+            <li>4th - 8 points.</li>
+            <li>5th - 6 points.</li>
+            <li>6th - 4 points.</li>
+            <li>7th - 2 points.</li>
+            <li>8th - 12th - 1 point.</li>
+            <li>13th - 16th - 0 point.</li>
+        </section>
+
+        
+        <section class="reg">
+            <h2>Registration Form</h2>
+            <form action="php/register.php?value=0" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required minlength="2">
+
+                <label for="branch">Branch:</label>
+                <input type="text" id="branch" name="branch" required minlength="2">
+
+                <label for="number">WhatsApp Number:</label>
+                <input type="tel" id="number" name="number" min="1111111111" max="9999999999" required>
+
+                <label for="team">Team Title:</label>
+                <input type="text" id="team" name="team" required minlength="2">
+
+                <label for="p1">Player 1:</label>
+                <input type="text" id="p1" name="p1" required minlength="2">
+
+                <label for="p2">Player 2:</label>
+                <input type="text" id="p2" name="p2" required minlength="2">
+
+                <label for="p3">Player 3:</label>
+                <input type="text" id="p3" name="p3" required minlength="2">
+
+                <label for="p4">Player 4:</label>
+                <input type="text" id="p4" name="p4" required minlength="2">
+
+                <label>Entry Fee: 200Rs</label>
+                <img src="assets/qr.jpg" alt="qr" height="200px">
+                <label><span style="color: red;">*</span> Send screenshot with Team Title and Player 1 Name to <a href="https://wa.me/+917892457081">(Click here to send ->)7892457081</a> after payment otherwise your team will not be registered</label>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

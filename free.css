@@ -1,0 +1,173 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: white;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+}
+header img {
+    width: 10%;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: -10px;
+}
+.text{
+    font-size: 5px;
+    width: 900px;
+}
+.heading{
+    color: #F5381F;
+}
+.text {
+    text-align: center;
+}
+
+.heading {
+    font-size: .5rem;
+    font-weight: bold;
+}
+
+
+.head{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+video{
+    margin-top: -5px;
+    filter: opacity(40%);
+    width: 100%;
+    object-position: center;
+    object-fit: fill;
+}
+.s3{
+    margin-top: 30px;
+}
+.cards{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card{
+    border: 1px solid ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px #fff;
+    width: 100%;
+}
+.card img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.ava{
+    text-align: center;
+}
+
+footer{
+    position: static;
+    bottom: 0px;
+    display: block;
+    padding-left: 135px;
+}
+.foot{
+    margin: 0 auto;
+}
+.click{
+    margin-bottom: 10px;
+}
+
+.reg{
+    max-width: 400px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #F5381F;
+    outline: none;
+}
+
+#card-element {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #F5381F;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d82b14;
+}
+
+h3{
+    margin-left: 10px;
+}
+
+ul{
+    list-style-type:disc;
+    margin-left: 20px;
+}
+
+li{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 10px;
+    line-height: 30px;
+}

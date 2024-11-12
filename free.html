@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="free.css">
+    <title>E-Sports Registration</title>
+</head>
+<body>
+    <header>
+        <img src="assets/p1.png" alt="BGSKH Education Trust logo">
+        <div class="text">
+            <p>||Jai Sri Gurudev||</p>
+            <h4>BGSKH Education Trust (R.) - A unit of Sri Adichunchanagiri Shikshana Trust(R.)</h4>
+            <span class="heading">BGS College of Engineering and Technology (BGSCET)</span><br>
+            <p>(Approved by AICTE, New Delhi and Affiliated to VTU, Belagavi)</p>
+            <p>Adjacent to Mahalakshmi Metro Station, Mahalakshmipuram, West of Chord Road, Bengaluru - 560 086, Karnataka</p>
+        </div>
+        <img src="assets/p2.png" alt="Another logo" class="p2">
+    </header>
+    
+    <main>
+        <section class="head">
+            <center>
+                <h2>FREEFIRE</h2>
+            </center>
+        </section>
+        
+        <img src="assets/ff.jpg" height="200px" width="100%">
+
+        <section class="rules">
+            <h2>Rule and regulations</h2>
+            <h3>Player Guidelines:</h3><br>
+            <ul>
+                <li>PC Players are not allowed.</li>
+                <li>If any participants gets caught using game bugs or hacks, whole team will be disqualified.</li>
+                <li>Every Custom Lobby will be host by the tournament Officials.</li>
+                <li>Guns Property will remains on.</li>
+                <li>Team-up is Not allowed in the Full map matches.</li>
+                <li>Every team should join in the lobby with their registered players only.</li>
+                <li>Starting  1st Round the matches will be of CLASH SQUAD(Unlimitted Ammo).</li>
+                <li>Character Skills will be off and Guns Property will remains on in CS mode.</li>
+                <li>Granades, Spray bombs and Flash bombs are not allowed in CS matches.</li>
+                <li>Double Vectors are not allowed in CS.</li>
+                <li>Breaking of Gloo Walls are allowed.</li>
+                <li>All the Teams should be there within 5 min after getting the Custom ID and Passward.</li>
+                <li>No teams will be considered if they gets late. Be on time everyone.</li>
+                <li>If any team failed to join in the Custom lobby on time then the team will face disqualification. We are not responsible if you gets late and failed to join custom rooms.</li>
+            </ul><br>
+            <h3>Tournament Structure</h3>
+            <ul>
+                <li>Number of Teams: 12 teams will compete in one room.</li>
+                <li>Matches will follow a custom room format in Clash Squad mode.</li>
+                <li>Each match will feature a head-to-head competition: Example: Team A vs. Team B</li>
+                <li>The winning team advances to the next round.</li>
+                <li>The losing team will be disqualified from the current tournament.</li>
+                <li>Teams that lose in their initial match will have the opportunity to re-register for a chance to compete in future matches.</li>
+                <li>Once a team wins a match, they will continue to compete until they lose.</li>
+                <li>If a winning team loses in subsequent matches, they will not have the option to re-register.</li>
+            </ul>
+        </section>
+
+        <section class="reg">
+            <h2>Registration Form</h2>
+            <form action="php/register.php?value=1" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required minlength="2">
+
+                <label for="branch">Branch:</label>
+                <input type="text" id="branch" name="branch" required minlength="2">
+
+                <label for="number">WhatsApp Number:</label>
+                <input type="tel" id="number" name="number" min="1111111111" max="9999999999" required >
+                
+                <label for="team">Team Title:</label>
+                <input type="text" id="team" name="team" required minlength="2">
+
+                <label for="p1">Player 1:</label>
+                <input type="text" id="p1" name="p1" required minlength="2">
+
+                <label for="p2">Player 2:</label>
+                <input type="text" id="p2" name="p2" required minlength="2">
+
+                <label for="p3">Player 3:</label>
+                <input type="text" id="p3" name="p3" required minlength="2">
+
+                <label for="p4">Player 4:</label>
+                <input type="text" id="p4" name="p4" required minlength="2">
+
+                <label for="p5">Player 5:</label>
+                <input type="text" id="p5" name="p5" placeholder="Extra Player (Optional)">
+            
+                <label>Entry Fee: 200Rs</label>
+                <img src="assets/qr.jpg" alt="qr" height="200px"><br>
+                <label><span style="color: red;">*</span> Send screenshot to with Team Title and player 1 Name to <a href="https://wa.me/+918123401009">(Click here to send ->)8123401009</a> after payment otherwise your team will not be registered</label>
+
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
